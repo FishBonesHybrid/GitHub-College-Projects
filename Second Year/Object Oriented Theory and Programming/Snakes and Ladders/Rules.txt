@@ -1,0 +1,21 @@
+Rules of Snakes and Ladders:
+When you start the game you can pick one of the four colours to play:
+Green, Blue, White, Orange.
+You are going to play against one Bot, you play first.
+In your turn you roll the dice (1-6), the value of the dice is how many steps you are going to walk.
+Win the game whoever reaches 100 first.
+Bot plays after you, The bot has two gear modes”
+The gear one is recharge mode, it is going to gather 25 energy each round, while it is recharging the Bot’s
+Dice is 1-5, When it reaches 100 it is going to change to gear 2.
+The gear two is charge mode, it is going to deploy 25 energy each round, when it reaches 0 energy it is 
+going back to recharge mode, when it is deploying energy its dice is 3-6.
+There are ladders which you can find throughout the board, there are 3 kind of ladders.
+Red ladder: you gain 5 positions and it can be find on positions 5, 14, 48 and 62.
+White ladder: you gain 12 positions and it can be find on positions 6, 24, 43 and 77.
+Green ladder: you gain 17 positions and it can be find on positions 33 and 83.
+There are Snakes which you can find throughout the board, there are 3 types of snakes.
+Cobra: you lose 10 positions and it can be find on positions 11, 13, 17, 49, 60, 84 and 99.
+Mamba: you lose 20 positions and it can be find on positions 21, 42, 61 and 86.
+Anaconda: you lose 25 positions and it can be find on positions 37, 44, 78, 91 and 94.
+
+Good Luck and have fun!
