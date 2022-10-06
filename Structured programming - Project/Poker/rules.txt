@@ -1,0 +1,11 @@
+Rules:
+This game is played by 2 players, you and a bot.
+Each player starts with 5 cards, depending on the cards that you have you can choose two options:
+Swap: You can swap your cards for fresh new ones, but costing you 2500 coins.(You will never get those coins back).
+Stand: You keep the cards that you have. if you choose stand you will have an extra option which is double the bet.
+Coin Rule: You start with 200,000 coins. Each match costs 20,000 coins. If you win you earn your opponent's coins.
+If you loose, you opponent keeps your money. The more money you have, the better your score is.
+The game has 3 winning conditions, pair of As, pair of 10s and high card, that's the winning order.
+If you have a pair of As and the bot has the same, you win. This means if there is a draw, you win.
+The suits matter! With clubs being the strongest ones, then spades, then hearts and the last one is diamonds.
+The game has three rounds, the higher the score and the lower your swap is, you go to the leader-board!
