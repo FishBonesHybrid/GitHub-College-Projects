@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<link href="studentImages/pepper.ico" rel="icon">
+	<link href="threeBean.CSS" rel="stylesheet">
+	<title>Newsletter Sign-up</title>
+</head>
+<body>
+  <div id="signup">
+	<form action="http://litstudentprojects.net/A1signUpNewsletter.php" method="post" >
+		 <fieldset>
+		 <h1>Sign to our Newsletter</h1>
+	   <label type="hidden" name="Three-bean chili with chuncky tomatoes" value="Three-bean chili with chuncky tomatoes">
+	<p><label for="fname">*First Name:</label></p><input type="text" name="fname" required>
+	<p><label for="sname">*Surname:</label></p><input type="text" name="sname" required>
+	<p><label for="email1">*email:</label></p><input type="email" name="email1" required>
+	<p><label for="address1">*Address Line 1:</label></p><input type="text" name="address1" required>
+	<p><label for="address2">Address Line 2:</label></p><input type="text" name="address2">
+	<p><label for="dob">*Date of birth:</label></p><input type="date" name="dob"required>
+	<p><label for="typeCooking">What type of cooking are you interested in?</label></p>
+	<select name="typeCooking" id="typeCooking" size="1">
+		<optgroup>
+			<option value="family" selected="selected">Family meals</option>
+			<option value="fine">Fine dining</option>
+			<option value="gluten">Gluten free</option>
+			<option value="budget">Cooking on a budget</option>
+			<option value="kids">Cooking with kids</option></optgroup></select>
+		<div id="button">
+			<p><input type="image" src="studentImages/button_submit.JPG" id="submit" title="submit your information" value="submit">
+			<input type="reset" id="resetbuttonid" name="reset" value="reset" style="display:none;">
+			<img src="studentImages/button_reset.jpg" alt="reset the form" title="Click to reset the form" onclick="document.getElementById('resetbuttonid').click()"></p></div>
+			<p><a href="Index.html"><img src="studentImages/button_cancel.JPG"></a>
+			<p class="warning"><sup>*</sup> Required field.</p>
+		</fieldset></div>
+	</form>
+</body>
+
+</html> 
